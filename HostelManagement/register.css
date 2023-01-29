@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #222D32;   
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.register{
+    text-align: center;
+    width: 570px;
+    margin: auto;
+    margin: 20 0 0 250px;
+    padding: 86px 25px;
+    background-color: #1A2226;
+    border: 1px solid #3e494d;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 2px 2px rgb(99, 119, 145);
+}
+
+.reg:hover{
+    cursor: pointer;
+    background-color: #102935;
+    box-shadow: 0 0.5em 0.5em -0.4em #0DB8DE var(--hover) ;
+    transform: translateY(-0.25em);
+
+}
+
+.reg{
+    background-color: #1A2226;
+    border: 1px solid #0DB8DE;
+    color: #0DB8DE;
+    padding: 8px 20px 8px 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.regbtn
+{
+    color: rgb(156 170 188);
+    margin-right: 31px;
+    margin-top: 57px;
+    margin-bottom: -30px;
+    text-align: right;
+}
+
+.imgdiv{
+    text-align: center;
+    margin: 12px 0 12px 0;
+    height: 100px;
+    font-size: 80px;
+    line-height: 100px;
+    background: -webkit-linear-gradient(#27EF9F, #0DB8DE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:#0DB8DE;
+}
+
+h2{
+    text-align: center;
+    color: rgb(156 170 188);
+    font-size: 1.75em;
+    letter-spacing:0.8ch;
+}
+
+
+label{
+    color: rgb(156 170 188);
+    padding: 0px 24px 0px 0px;
+}
+
+.email label{
+    padding: 10px 112px 0px 10px;
+}
+
+.username label{
+    padding: 10px px 0px 10px;
+}
+
+.password label{
+    padding: 10px 86px 0px 10px;
+}
+
+.confpassword label{
+    padding: 10px 10px 0px 10px;
+}
+
+.email, .username, .password, .confpassword{
+    padding-top: 30px;
+}
+
+input[type="Password"], input[type="text"], input[type="email"]{
+    background-color: #1A2226;
+    border: none;
+    border-bottom: 2px solid #0DB8DE;
+    outline: 0;
+    padding: 0px 10px 0px 20px;
+}
+
+input[type="Password"]{
+    padding: 10px 10px 0px 10px;
+}
+
+input[type="text"]{
+    padding: 10px 10px 0px 10px;
+}
+
+input[type="email"]{
+    padding: 10px 10px 0px 10px;
+}
+
+input[type="submit"]{
+    background-color: #1A2226;
+    border: 1px solid #0DB8DE;
+    color: #0DB8DE;
+    padding: 10px 70px 10px 70px;
+    margin-top: 68px;
+    border-radius: 10px;
+    background-color: #102935;
+}
+
+input[type="submit"]:hover{
+    background-color: #1A2226;
+    box-shadow: 0 0.5em 0.5em -0.4em #0DB8DE var(--hover) ;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+input, select, textarea{
+    color: rgb(156 170 188);
+}

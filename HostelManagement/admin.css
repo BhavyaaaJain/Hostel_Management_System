@@ -1,0 +1,145 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    padding: 0;
+    background-color: #222D32;   
+    color: rgb(156 170 188);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/*************** NAVBAR ****************/
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0px;
+}
+
+#orgname{
+    margin-right: auto;
+    padding: 15px;
+    /* margin: auto; */
+    margin-top: 10px;
+    position: relative;
+    color: rgb(156 170 188);
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    padding: 10px;
+    /* padding: 10px 47px 10px 47px; */
+    
+}
+
+#navbar::before{
+    content: "";
+    background-color: #1A2226;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+    /* opacity: 0.95; */
+    
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: rgb(156 170 188);
+    padding: 10px 47px 10px 47px;
+}
+
+#navbar ul li a:hover{
+    border: 2px solid  #0DB8DE;
+    background-color: #102935;
+    box-shadow: 0 0.5em 0.5em -0.4em #0DB8DE var(--hover) ;
+    border-radius: 10px;
+    transform: translateY(-0.25em);
+}
+
+/************ DIV BOXES ****************/
+
+.adm{
+    display: flex;
+    border: 4px solid rgb(156 170 188);
+    margin: 10px;
+    /* flex: 1 1 auto; */
+    align-self: flex-start;
+}
+
+.inbox{
+    /* text-align: center; */
+    background-color: #1A2226;
+    border: 3px solid rgb(156 170 188);
+     padding: 75px;
+     margin: 30px;
+}
+
+#details{
+    text-align: left;
+    width: 300px;
+    /* margin-right: 150px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#changepwd{
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/************* FORM ***********/
+
+input[type="text"], input[type="email"], input[type="datetime"], input[type="password"]{
+    background-color: #1A2226;
+    border: none;
+    border-bottom: 2px solid #0DB8DE;
+    outline: 0;
+    padding: 0px 10px 0px 20px;
+    margin-bottom: 20px;
+    width: 250px;
+}
+
+input[type="submit"]{
+    text-align: center;
+    background-color: #1A2226;
+    border: 1px solid #0DB8DE;
+    color: #0DB8DE;
+    padding: 10px 40px 10px 40px;
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: #102935;
+}
+
+input[type="submit"]:hover{
+    background-color: #1A2226;
+    box-shadow: 0 0.5em 0.5em -0.4em #0DB8DE var(--hover) ;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+.reg:hover{
+    cursor: pointer;
+    background-color: #102935;
+    /* border-radius: 10px; */
+    /* padding: 15px 45px 15px 45px; */
+    /* background-color:  #0DB8DE;
+    color: #1A2226; */
+    box-shadow: 0 0.5em 0.5em -0.4em #0DB8DE var(--hover) ;
+    transform: translateY(-0.25em);
+
+}
+
+.submt{
+    text-align: center;
+}
